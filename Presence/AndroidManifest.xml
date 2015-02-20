@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="br.presence.android" android:versionCode="3"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="10" />
+	<supports-screens android:largeScreens="true"
+		android:normalScreens="true" android:smallScreens="true"
+		android:anyDensity="true" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+
+	<application android:icon="@drawable/icon_2" android:label="@string/app_name" android:theme="@style/Theme.Base.AppCompat.Light">
+		<activity android:name="br.presence.android.Splash" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="jim.h.common.android.zxinglib.CaptureActivity"
+			android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:windowSoftInputMode="stateAlwaysHidden" />
+		<activity android:name="Resultado"></activity>
+		<activity android:name="Cadastrados"></activity>
+		<activity android:name="CadastroEvento"></activity>
+		<activity android:name="New_Main"></activity>
+		<activity android:name="MainActivity"></activity>
+		<activity android:name="About"></activity>
+		<activity android:name="LerQR"></activity>
+		<activity android:name="New_Resultado"></activity>
+	</application>
+
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.FLASHLIGHT" />
+</manifest>

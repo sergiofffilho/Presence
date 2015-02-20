@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Presence</string>
+	<string name="scan">LER QR CODE</string>
+	<string name="scan_resut_lable">SCAN RESULT: </string>
+	<string name="msg_default_status"> COLOQUE UM QRCODE DENTRO DO RETÂNGULO. </string>
+	<string name="ns">PRÓXIMA TELA</string>
+	<string name="change">TROCAR</string>
+	<string name="numpacce">NÚMERO PACCE</string>
+	<string name="data_hora">DATA E HORA</string>
+	<string name="latitude">LATITUDE</string>
+	<string name="longitude">LONGITUDE</string>
+	<string name="cad_evento">CADASTRAR EVENTO</string>
+	<string name="evento">EVENTO</string>
+	<string name="voltar">VOLTAR</string>
+	<string name="submit">SUBMETER</string>
+	<string name="nome_participante">NOME</string>
+	<string name="curso">CURSO</string>
+	<string name="ver_cadastrados">LISTAR CADASTRADOS</string>
+	<string name="usuario">NOME DE USUÁRIO</string>
+	<string name="campo_senha">SENHA</string>
+	<string name="entrar">ENTRAR</string>
+	<string name="enviar_pdf">ENVIAR PDF</string>
+	<string name="enviar_arquivo">ENVIAR ARQUIVO</string>
+	<string name="remetente">REMETENTE</string>
+	<string name="destinatario">DESTINATÁRIO</string>
+	<string name="selecionar_arquivo">SELECIONAR ARQUIVO..</string>
+	<string name="your_message">CORPO DO EMAIL</string>
+	<string name="enviar">ENVIAR</string>
+	<string name="mk_file">GERAR ARQUIVO</string>
+	<string name="evento_nome">     NOME DO EVENTO</string>
+	<string name="evento_local">LOCAL</string>
+	<string name="evento_responsavel">RESPONSÁVEL</string>
+	<string name="evento_data">DATA</string>
+	<string name="eventos_cadastrados">LISTAR EVENTOS CADASTRADOS</string>
+	<string name="choose_event">ESCOLHA UM EVENTO</string>
+	<string name="actionbar_activity_not_found">Failed to open intent...</string>
+
+	<string-array name="events_array">
+	      
+	</string-array>
+
+	<string name="about_desc">Presence for Android</string>
+	<string name="about_desc_2">Desenvolvido por Ygor Reis</string>
+	<string name="telefone">+55 0xx85 9792 - 8986</string>
+	<string name="email">ygorreis@hotmail.com</string>
+	<string name="about">Sobre</string>
+</resources>

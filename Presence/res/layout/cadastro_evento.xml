@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/clouds"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/nome_evento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:hint="@string/evento_nome"
+        android:inputType="none|text"
+        android:singleLine="true"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/local_evento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:hint="@string/evento_local"
+        android:inputType="text"
+        android:singleLine="true"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/responsavel_evento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:hint="@string/evento_responsavel"
+        android:inputType="none|text"
+        android:singleLine="true"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/data_evento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:hint="@string/evento_data"
+        android:singleLine="true"
+        android:typeface="monospace" />
+
+
+    <Button
+            android:id="@+id/botao_cadastrarEvento"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:onClick="cadastrar"
+            android:text="@string/submit" />
+    
+</LinearLayout>

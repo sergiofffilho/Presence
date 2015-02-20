@@ -1,0 +1,15 @@
+package br.presence.android;
+
+//import jim.h.common.android.zxingjar.demo.R;
+//import br.presence.R;
+import android.app.Activity;
+import android.os.Bundle;
+
+public class About extends Activity{
+
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		
+		setContentView(R.layout.about);
+	}
+}
